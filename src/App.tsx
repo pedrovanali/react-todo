@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import AddTodo from "./components/AddTodo";
+import { TodoDispatchContext, TodoStateContext } from "./contexts/TodoContext";
+import TodoReducerHooks from "./hooks/TodoReducerHooks";
 
 function App() {
+  const { state: todoState, dispatch: todoDispatch } = TodoReducerHooks();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TodoStateContext.Provider value={todoState}>
+      <TodoDispatchContext.Provider value={todoDispatch}>
+        <div className="App">
+          <AddTodo />
+        </div>
+      </TodoDispatchContext.Provider>
+    </TodoStateContext.Provider>
   );
 }
 
