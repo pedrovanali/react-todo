@@ -5,6 +5,7 @@ export default function TodoReducer(
   state: PropsStateTodoContext,
   action: TodoAction
 ) {
+  console.log(action, action.payload);
   switch (action.type) {
     case "ADD_TODO":
       const { payload: addPayload } = action;
@@ -39,7 +40,7 @@ export default function TodoReducer(
       return {
         ...state,
         todos: {
-          ...remainingTodos
+          ...remainingTodos,
         },
       };
     default:
