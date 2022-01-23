@@ -7,7 +7,7 @@ export default function TodoReducer(
 ) {
   switch (action.type) {
     case "ADD_TODO":
-      const { payload } = action;
+      const { payload: addPayload } = action;
       let { lastTodoId } = state;
       const currentTodoId = lastTodoId + 1;
 
@@ -16,7 +16,30 @@ export default function TodoReducer(
         lastTodoId: currentTodoId,
         todos: {
           ...state.todos,
-          [currentTodoId]: { ...payload, id: currentTodoId },
+          [currentTodoId]: { ...addPayload, id: currentTodoId },
+        },
+      };
+    case "TOGGLE_TODO":
+      const { payload: toggleTodoId } = action;
+      const { todos } = state;
+      return {
+        ...state,
+        todos: {
+          ...todos,
+          [toggleTodoId]: {
+            ...[todos[toggleTodoId]],
+            completed: !todos[toggleTodoId].completed,
+          },
+        },
+      };
+    case "DELETE_TODO":
+      const { payload: deleteTodoId } = action;
+      const { todos: todoItems } = state;
+      const { [deleteTodoId]: deleted, ...remainingTodos } = todoItems;
+      return {
+        ...state,
+        todos: {
+          ...remainingTodos
         },
       };
     default:
