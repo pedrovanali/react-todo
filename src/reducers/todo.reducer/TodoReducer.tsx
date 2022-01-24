@@ -27,7 +27,7 @@ export default function TodoReducer(
         todos: {
           ...todos,
           [toggleTodoId]: {
-            ...[todos[toggleTodoId]],
+            ...todos[toggleTodoId],
             completed: !todos[toggleTodoId].completed,
           },
         },

@@ -33,6 +33,7 @@ describe("Todo reducer test suite", () => {
       },
     };
     const toggledTodoState = TodoReducer(initialState, toggleTodo(1));
+    expect(toggledTodoState.todos[1]).toEqual({ id: 1, completed: true, name: "newer Todo" });
     expect(toggledTodoState.todos[1].completed).toBeTruthy();
   });
   it("should toggle todo false", () => {
@@ -44,6 +45,7 @@ describe("Todo reducer test suite", () => {
       },
     };
     const toggledTodoState = TodoReducer(initialState, toggleTodo(1));
+    expect(toggledTodoState.todos[1]).toEqual({ id: 1, completed: false, name: "newer Todo" });
     expect(toggledTodoState.todos[1].completed).toBeFalsy();
   });
   it("should delete todo", () => {

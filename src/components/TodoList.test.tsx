@@ -1,5 +1,5 @@
-import { render, screen } from "@testing-library/react";
-import { TodoStateContext } from "../contexts/TodoContext";
+import { fireEvent, render, screen } from "@testing-library/react";
+import { TodoDispatchContext, TodoStateContext } from "../contexts/TodoContext";
 import TodoList from "./TodoList";
 
 describe("Todo List test suite", () => {
@@ -35,5 +35,22 @@ describe("Todo List test suite", () => {
     const newerTodo = screen.getByText("NO") as HTMLLabelElement;
     expect(newTodo).toBeInTheDocument();
     expect(newerTodo).toBeInTheDocument();
+  });
+  it("should toggle todo when clicked on todo item", () => {
+    const todos = {
+      0: { id: 0, completed: true, name: "new Todo" },
+      1: { id: 1, completed: false, name: "newer Todo" },
+    };
+    const dispatch = jest.fn();
+    render(
+      <TodoStateContext.Provider value={{ lastTodoId: 1, todos }}>
+        <TodoDispatchContext.Provider value={dispatch}>
+          <TodoList />
+        </TodoDispatchContext.Provider>
+      </TodoStateContext.Provider>
+    );
+    const newTodoItem = screen.getByTestId(0);
+    fireEvent.click(newTodoItem);
+    expect(dispatch).toHaveBeenCalledTimes(1);
   });
 });
