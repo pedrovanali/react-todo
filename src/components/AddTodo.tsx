@@ -18,8 +18,8 @@ const AddTodo: FC<AddTodoProps> = () => {
   };
 
   return (
-    <div>
-      <label htmlFor="add-todo-input">New todo item</label>
+    <div className="add-todo" data-testid="add-todo">
+      <label htmlFor="add-todo-input">New todo item:</label>
       <input
         type="text"
         id="add-todo-input"
@@ -28,7 +28,13 @@ const AddTodo: FC<AddTodoProps> = () => {
         onChange={handleInputValue}
         value={inputValue}
       ></input>
-      <button onClick={handleAddTodo}>Add todo</button>
+      <button
+        onClick={handleAddTodo}
+        className="add-todo-button"
+        data-testid="add-todo-button"
+      >
+        Add todo
+      </button>
     </div>
   );
 };

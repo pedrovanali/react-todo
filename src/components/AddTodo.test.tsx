@@ -12,7 +12,7 @@ describe("Test suite for AddTodo", () => {
   });
   it("should have label", () => {
     render(<AddTodo />);
-    const addTodoLabel = screen.getByText("New todo item") as HTMLLabelElement;
+    const addTodoLabel = screen.getByText("New todo item:") as HTMLLabelElement;
     expect(addTodoLabel).toBeInTheDocument();
   });
   it("should have button", () => {
@@ -50,5 +50,18 @@ describe("Test suite for AddTodo", () => {
     fireEvent.click(addTodoButton);
     expect(mockFn).toHaveBeenCalled();
     expect(addTodoInput.value).toEqual("");
+  });
+});
+describe("Add todo css test suite", () => {
+  it("should check if class add-todo exists in the dom", () => {
+    render(<AddTodo />);
+    const addTodoContainer = screen.getByTestId("add-todo");
+    expect(addTodoContainer).toHaveClass("add-todo");
+  });
+
+  it("should check if class add-todo-button exists in the dom", () => {
+    render(<AddTodo />);
+    const addTodoContainer = screen.getByTestId("add-todo-button");
+    expect(addTodoContainer).toHaveClass("add-todo-button");
   });
 });

@@ -1,0 +1,64 @@
+.app {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+}
+.add-todo {
+  margin: auto;
+  height: 6em;
+  display: inherit;
+  align-items: center;
+  width: 760px;
+  input {
+    height: 3em;
+    width: 100%;
+    border: {
+      top-left: {
+        radius: .3em;
+      }
+      bottom-left: {
+        radius: .3em;
+      }
+    }
+  }
+  label {
+    width: 11em;
+    color: #ccc;
+    display: inline-block;
+    font : {
+      weight: 600;
+    }
+  }
+  &::before {
+    z-index: -1;
+    content: " ";
+    background-color: #251607;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    height: 6em;
+  }
+  &-button {
+    color: #fff;
+    font-weight: 600;
+    width: 10.275em;
+    height: 3.375em;
+    background-color: #947f71;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+    border: {
+      top-right: {
+        radius: .3em;
+      }
+      bottom-right: {
+        radius: .3em;
+      }
+    }
+    &:hover {
+      background-color: #756255;
+    }
+  }
+}
