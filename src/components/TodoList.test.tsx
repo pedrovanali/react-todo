@@ -20,7 +20,6 @@ describe("Todo List test suite", () => {
     expect(newTodo).toBeInTheDocument();
     expect(newerTodo).toBeInTheDocument();
   });
-
   it("should render list with finished todos", () => {
     const todos = {
       0: { id: 0, completed: true, name: "new Todo" },
@@ -93,5 +92,30 @@ describe("Todo List test suite", () => {
     expect(clickEvent.defaultPrevented).toBe(true);
     expect(dispatch).toHaveBeenCalledTimes(1);
     expect(dispatch).toHaveBeenCalledWith(deleteTodo(0));
+  });
+});
+
+describe("Todo list styles and classes test suite", () => {
+  it("should check if have class todo-list", () => {
+    render(<TodoList />);
+    const todoListContainer = screen.getByTestId("todo-list");
+    expect(todoListContainer).toHaveClass("todo-list");
+  });
+
+  it("should check if have class todo-item", () => {
+    const todos = {
+      0: { id: 0, completed: true, name: "new Todo" },
+      1: { id: 1, completed: false, name: "newer Todo" },
+    };
+    const dispatch = jest.fn();
+    render(
+      <TodoStateContext.Provider value={{ lastTodoId: 1, todos }}>
+        <TodoDispatchContext.Provider value={dispatch}>
+          <TodoList />
+        </TodoDispatchContext.Provider>
+      </TodoStateContext.Provider>
+    );
+    const newTodoItem = screen.getByTestId(0);
+    expect(newTodoItem).toHaveClass("todo-item");
   });
 });

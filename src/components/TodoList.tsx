@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { TodoDispatchContext, TodoStateContext } from "../contexts/TodoContext";
 import { deleteTodo, toggleTodo } from "../reducers/todo.reducer/TodoActions";
 import { getAllTodos } from "../selectors/todo.selectors/TodoSelectors";
+import "./TodoList.scss";
 
 const TodoList = () => {
   const dispatch = useContext(TodoDispatchContext);
@@ -20,7 +21,7 @@ const TodoList = () => {
     dispatch(deleteTodo(id));
   };
   return (
-    <div>
+    <div className="todo-list" data-testid="todo-list">
       {todosList.map((todoItem, index) => (
         <div
           key={index}
@@ -28,6 +29,7 @@ const TodoList = () => {
           onClick={() => {
             toggleTodoItem(todoItem.id);
           }}
+          className="todo-item"
         >
           <span>{todoItem.name}</span>
           <strong> {todoItem.completed ? "YES" : "NO"}</strong>
