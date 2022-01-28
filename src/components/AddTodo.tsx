@@ -31,6 +31,7 @@ const AddTodo: FC<AddTodoProps> = () => {
       <button
         onClick={handleAddTodo}
         className="add-todo-button"
+        id="add-todo-button"
         data-testid="add-todo-button"
       >
         Add todo

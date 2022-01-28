@@ -1,10 +1,7 @@
-import React, { FC, ReactNode } from "react";
+import React, {  ReactNode } from "react";
 import TodoReducerHooks from "../hooks/TodoReducerHooks";
 import { TodoStateContext, TodoDispatchContext } from "./TodoContext";
 
-interface Props {
-  children: ReactNode;
-}
 
 function ContextsWrapper(children: ReactNode) {
   const { state: todoState, dispatch: todoDispatch } = TodoReducerHooks();
