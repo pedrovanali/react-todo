@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@cypress/code-coverage": "^3.9.12",
     "@cypress/react": "^5.12.1",
     "@cypress/webpack-dev-server": "^1.8.0",
     "@testing-library/cypress": "^8.0.2",
