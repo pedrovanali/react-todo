@@ -24,4 +24,14 @@ describe("e2e app test suite", () => {
     cy.get("[data-testid='delete-0']").click();
     cy.get(".todo-item").should("not.exist");
   });
+
+  it("should navigate to charts page", () => {
+    cy.contains(/charts page/i).click();
+    cy.url().should("include", "/charts")
+  });
+  it("should navigate to default page", () => {
+    cy.contains(/charts page/i).click();
+    cy.contains(/todo page/i).click();
+    cy.url().should("include", "/")
+  });
 });
