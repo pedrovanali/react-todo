@@ -1,0 +1,1874 @@
+{
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\reducers\\todo.reducer\\TodoReducer.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\reducers\\todo.reducer\\TodoReducer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 47,
+          "column": 3
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 38
+        },
+        "end": {
+          "line": 10,
+          "column": 44
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 27
+        },
+        "end": {
+          "line": 11,
+          "column": 32
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 28
+        },
+        "end": {
+          "line": 12,
+          "column": 42
+        }
+      },
+      "4": {
+        "start": {
+          "line": 14,
+          "column": 6
+        },
+        "end": {
+          "line": 21,
+          "column": 8
+        }
+      },
+      "5": {
+        "start": {
+          "line": 23,
+          "column": 40
+        },
+        "end": {
+          "line": 23,
+          "column": 46
+        }
+      },
+      "6": {
+        "start": {
+          "line": 24,
+          "column": 24
+        },
+        "end": {
+          "line": 24,
+          "column": 29
+        }
+      },
+      "7": {
+        "start": {
+          "line": 25,
+          "column": 6
+        },
+        "end": {
+          "line": 34,
+          "column": 8
+        }
+      },
+      "8": {
+        "start": {
+          "line": 36,
+          "column": 40
+        },
+        "end": {
+          "line": 36,
+          "column": 46
+        }
+      },
+      "9": {
+        "start": {
+          "line": 37,
+          "column": 35
+        },
+        "end": {
+          "line": 37,
+          "column": 40
+        }
+      },
+      "10": {
+        "start": {
+          "line": 38,
+          "column": 61
+        },
+        "end": {
+          "line": 38,
+          "column": 70
+        }
+      },
+      "11": {
+        "start": {
+          "line": 39,
+          "column": 6
+        },
+        "end": {
+          "line": 44,
+          "column": 8
+        }
+      },
+      "12": {
+        "start": {
+          "line": 46,
+          "column": 6
+        },
+        "end": {
+          "line": 46,
+          "column": 19
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "TodoReducer",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 48,
+            "column": 1
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 47,
+            "column": 3
+          }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 4
+            },
+            "end": {
+              "line": 21,
+              "column": 8
+            }
+          },
+          {
+            "start": {
+              "line": 22,
+              "column": 4
+            },
+            "end": {
+              "line": 34,
+              "column": 8
+            }
+          },
+          {
+            "start": {
+              "line": 35,
+              "column": 4
+            },
+            "end": {
+              "line": 44,
+              "column": 8
+            }
+          },
+          {
+            "start": {
+              "line": 45,
+              "column": 4
+            },
+            "end": {
+              "line": 46,
+              "column": 19
+            }
+          }
+        ],
+        "line": 8
+      }
+    },
+    "s": {
+      "0": 14,
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 6,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 4,
+      "9": 4,
+      "10": 4,
+      "11": 4,
+      "12": 0
+    },
+    "f": {
+      "0": 14
+    },
+    "b": {
+      "0": [
+        6,
+        4,
+        4,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f9cbca3125538dc62b6df63152230519e8d6c779"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\hooks\\TodoReducerHook.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\hooks\\TodoReducerHook.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 23
+        },
+        "end": {
+          "line": 7,
+          "column": 52
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 28
+        },
+        "end": {
+          "line": 8,
+          "column": 65
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 33
+        },
+        "end": {
+          "line": 12,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 10,
+          "column": 25
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "end": {
+          "line": 11,
+          "column": 21
+        }
+      },
+      "5": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 13,
+          "column": 43
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "TodoReducerHooks",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 24
+          },
+          "end": {
+            "line": 6,
+            "column": 40
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 65
+          },
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 33
+          },
+          "end": {
+            "line": 9,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 57
+          },
+          "end": {
+            "line": 12,
+            "column": 3
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 38,
+      "1": 38,
+      "2": 38,
+      "3": 10,
+      "4": 10,
+      "5": 38
+    },
+    "f": {
+      "0": 38,
+      "1": 10
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "77aff7948c0d9ed6c7f316dd3758e0827a855386"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\reducers\\TodoEffects.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\reducers\\TodoEffects.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 12,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 6
+        },
+        "end": {
+          "line": 8,
+          "column": 18
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 6
+        },
+        "end": {
+          "line": 10,
+          "column": 12
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 44
+          },
+          "end": {
+            "line": 12,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 2
+          },
+          "end": {
+            "line": 11,
+            "column": 3
+          }
+        },
+        "type": "switch",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 4
+            },
+            "end": {
+              "line": 8,
+              "column": 18
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 4
+            },
+            "end": {
+              "line": 10,
+              "column": 12
+            }
+          }
+        ],
+        "line": 6
+      }
+    },
+    "s": {
+      "0": 9,
+      "1": 10,
+      "2": 6,
+      "3": 4
+    },
+    "f": {
+      "0": 10
+    },
+    "b": {
+      "0": [
+        6,
+        4
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "07e2a71a67a35cd29cff8cc07c52b502db39f0f8"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\contexts\\TodoContext.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\contexts\\TodoContext.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 20,
+          "column": 28
+        },
+        "end": {
+          "line": 23,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 25,
+          "column": 25
+        },
+        "end": {
+          "line": 27,
+          "column": 22
+        }
+      },
+      "2": {
+        "start": {
+          "line": 28,
+          "column": 28
+        },
+        "end": {
+          "line": 28,
+          "column": 50
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 9,
+      "1": 9,
+      "2": 9
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "64cdb889d17cbf56c31a119270adfaddea039818"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\contexts\\ContextsWrapper.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\contexts\\ContextsWrapper.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 67
+        },
+        "end": {
+          "line": 7,
+          "column": 95
+        }
+      },
+      "1": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "ContextsWrapper",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 9
+          },
+          "end": {
+            "line": 6,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 46
+          },
+          "end": {
+            "line": 16,
+            "column": 1
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 38,
+      "1": 38
+    },
+    "f": {
+      "0": 38
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "d0dfc730cad698292efba6ba278409a20923e1d5"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\reducers\\todo.reducer\\TodoActions.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\reducers\\todo.reducer\\TodoActions.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 23
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 4,
+          "column": 75
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 26
+        },
+        "end": {
+          "line": 9,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 8,
+          "column": 46
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 26
+        },
+        "end": {
+          "line": 13,
+          "column": 1
+        }
+      },
+      "5": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 46
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 23
+          },
+          "end": {
+            "line": 3,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 53
+          },
+          "end": {
+            "line": 5,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 26
+          },
+          "end": {
+            "line": 7,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 54
+          },
+          "end": {
+            "line": 9,
+            "column": 1
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 26
+          },
+          "end": {
+            "line": 11,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 54
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "line": 11
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 9,
+      "1": 6,
+      "2": 9,
+      "3": 2,
+      "4": 9,
+      "5": 2
+    },
+    "f": {
+      "0": 6,
+      "1": 2,
+      "2": 2
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "86d86770672542aab455ce523b9552c7ae4f689c"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\components\\AddTodo.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\components\\AddTodo.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 34
+        },
+        "end": {
+          "line": 41,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 19
+        },
+        "end": {
+          "line": 8,
+          "column": 50
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 38
+        },
+        "end": {
+          "line": 9,
+          "column": 50
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 27
+        },
+        "end": {
+          "line": 13,
+          "column": 3
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 41
+        }
+      },
+      "5": {
+        "start": {
+          "line": 15,
+          "column": 24
+        },
+        "end": {
+          "line": 18,
+          "column": 3
+        }
+      },
+      "6": {
+        "start": {
+          "line": 16,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 34
+        }
+      },
+      "7": {
+        "start": {
+          "line": 17,
+          "column": 4
+        },
+        "end": {
+          "line": 17,
+          "column": 22
+        }
+      },
+      "8": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 40,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 34
+          },
+          "end": {
+            "line": 7,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 40
+          },
+          "end": {
+            "line": 41,
+            "column": 1
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 27
+          },
+          "end": {
+            "line": 11,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 71
+          },
+          "end": {
+            "line": 13,
+            "column": 3
+          }
+        },
+        "line": 11
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 24
+          },
+          "end": {
+            "line": 15,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 30
+          },
+          "end": {
+            "line": 18,
+            "column": 3
+          }
+        },
+        "line": 15
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 9,
+      "1": 196,
+      "2": 196,
+      "3": 196,
+      "4": 78,
+      "5": 196,
+      "6": 6,
+      "7": 6,
+      "8": 196
+    },
+    "f": {
+      "0": 196,
+      "1": 78,
+      "2": 6
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "94f509e8d370bb3abf17fc8bcb313ab19d9a225a"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\selectors\\todo.selectors\\TodoSelectors.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\selectors\\todo.selectors\\TodoSelectors.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 27
+        },
+        "end": {
+          "line": 6,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 5,
+          "column": 61
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 45
+        },
+        "end": {
+          "line": 5,
+          "column": 59
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 66
+          },
+          "end": {
+            "line": 6,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 32
+          },
+          "end": {
+            "line": 5,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 45
+          },
+          "end": {
+            "line": 5,
+            "column": 59
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 9,
+      "1": 40,
+      "2": 16
+    },
+    "f": {
+      "0": 40,
+      "1": 16
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "91c02a19bc4beb09f753d0ea286f865db42ab4d3"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\components\\TodoList.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\components\\TodoList.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 17
+        },
+        "end": {
+          "line": 50,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 19
+        },
+        "end": {
+          "line": 8,
+          "column": 50
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 16
+        },
+        "end": {
+          "line": 9,
+          "column": 44
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 20
+        },
+        "end": {
+          "line": 10,
+          "column": 25
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 20
+        },
+        "end": {
+          "line": 11,
+          "column": 38
+        }
+      },
+      "5": {
+        "start": {
+          "line": 12,
+          "column": 25
+        },
+        "end": {
+          "line": 14,
+          "column": 3
+        }
+      },
+      "6": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 29
+        }
+      },
+      "7": {
+        "start": {
+          "line": 15,
+          "column": 25
+        },
+        "end": {
+          "line": 22,
+          "column": 3
+        }
+      },
+      "8": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 19,
+          "column": 24
+        }
+      },
+      "9": {
+        "start": {
+          "line": 20,
+          "column": 4
+        },
+        "end": {
+          "line": 20,
+          "column": 23
+        }
+      },
+      "10": {
+        "start": {
+          "line": 21,
+          "column": 4
+        },
+        "end": {
+          "line": 21,
+          "column": 29
+        }
+      },
+      "11": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 49,
+          "column": 4
+        }
+      },
+      "12": {
+        "start": {
+          "line": 26,
+          "column": 8
+        },
+        "end": {
+          "line": 46,
+          "column": 14
+        }
+      },
+      "13": {
+        "start": {
+          "line": 30,
+          "column": 12
+        },
+        "end": {
+          "line": 30,
+          "column": 40
+        }
+      },
+      "14": {
+        "start": {
+          "line": 40,
+          "column": 14
+        },
+        "end": {
+          "line": 40,
+          "column": 45
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 17
+          },
+          "end": {
+            "line": 7,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 23
+          },
+          "end": {
+            "line": 50,
+            "column": 1
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 25
+          },
+          "end": {
+            "line": 12,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 41
+          },
+          "end": {
+            "line": 14,
+            "column": 3
+          }
+        },
+        "line": 12
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 25
+          },
+          "end": {
+            "line": 15,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 22,
+            "column": 3
+          }
+        },
+        "line": 18
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 21
+          },
+          "end": {
+            "line": 25,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 8
+          },
+          "end": {
+            "line": 46,
+            "column": 14
+          }
+        },
+        "line": 26
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 29,
+            "column": 19
+          },
+          "end": {
+            "line": 29,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 25
+          },
+          "end": {
+            "line": 31,
+            "column": 11
+          }
+        },
+        "line": 29
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 39,
+            "column": 21
+          },
+          "end": {
+            "line": 39,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 28
+          },
+          "end": {
+            "line": 41,
+            "column": 13
+          }
+        },
+        "line": 39
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 20
+          },
+          "end": {
+            "line": 35,
+            "column": 53
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 35,
+              "column": 41
+            },
+            "end": {
+              "line": 35,
+              "column": 46
+            }
+          },
+          {
+            "start": {
+              "line": 35,
+              "column": 49
+            },
+            "end": {
+              "line": 35,
+              "column": 53
+            }
+          }
+        ],
+        "line": 35
+      }
+    },
+    "s": {
+      "0": 9,
+      "1": 40,
+      "2": 40,
+      "3": 40,
+      "4": 40,
+      "5": 40,
+      "6": 2,
+      "7": 40,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 40,
+      "12": 16,
+      "13": 2,
+      "14": 2
+    },
+    "f": {
+      "0": 40,
+      "1": 2,
+      "2": 2,
+      "3": 16,
+      "4": 2,
+      "5": 2
+    },
+    "b": {
+      "0": [
+        4,
+        12
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "163a21320d300fd8d2a5d69f1f5a47a4931cd7fd"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\pages\\TodoPage.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\pages\\TodoPage.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 21
+        },
+        "end": {
+          "line": 12,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 21
+          },
+          "end": {
+            "line": 5,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 12,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 9,
+      "1": 40
+    },
+    "f": {
+      "0": 40
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b3e1fee1fd9a35313ca392d6272b27dea6e95673"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\pages\\ChartPage.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\pages\\ChartPage.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 22
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 4,
+          "column": 31
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 22
+          },
+          "end": {
+            "line": 3,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 28
+          },
+          "end": {
+            "line": 5,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 9,
+      "1": 6
+    },
+    "f": {
+      "0": 6
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "25ce2590e67dff19a9734d48ef043506c9e592aa"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\App.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\App.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "App",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 9
+          },
+          "end": {
+            "line": 9,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 15
+          },
+          "end": {
+            "line": 32,
+            "column": 1
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 38
+    },
+    "f": {
+      "0": 38
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "94a838085c84634fdfbfcfa2abbb712670662a2c"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\reportWebVitals.ts": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\reportWebVitals.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 24
+        },
+        "end": {
+          "line": 13,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 11,
+          "column": 7
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 6
+        },
+        "end": {
+          "line": 6,
+          "column": 26
+        }
+      },
+      "4": {
+        "start": {
+          "line": 7,
+          "column": 6
+        },
+        "end": {
+          "line": 7,
+          "column": 26
+        }
+      },
+      "5": {
+        "start": {
+          "line": 8,
+          "column": 6
+        },
+        "end": {
+          "line": 8,
+          "column": 26
+        }
+      },
+      "6": {
+        "start": {
+          "line": 9,
+          "column": 6
+        },
+        "end": {
+          "line": 9,
+          "column": 26
+        }
+      },
+      "7": {
+        "start": {
+          "line": 10,
+          "column": 6
+        },
+        "end": {
+          "line": 10,
+          "column": 27
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 24
+          },
+          "end": {
+            "line": 3,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 57
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 30
+          },
+          "end": {
+            "line": 5,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 79
+          },
+          "end": {
+            "line": 11,
+            "column": 5
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 2
+          },
+          "end": {
+            "line": 12,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 4,
+              "column": 2
+            },
+            "end": {
+              "line": 12,
+              "column": 3
+            }
+          },
+          {
+            "start": {
+              "line": 4,
+              "column": 2
+            },
+            "end": {
+              "line": 12,
+              "column": 3
+            }
+          }
+        ],
+        "line": 4
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 6
+          },
+          "end": {
+            "line": 4,
+            "column": 52
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 4,
+              "column": 6
+            },
+            "end": {
+              "line": 4,
+              "column": 17
+            }
+          },
+          {
+            "start": {
+              "line": 4,
+              "column": 21
+            },
+            "end": {
+              "line": 4,
+              "column": 52
+            }
+          }
+        ],
+        "line": 4
+      }
+    },
+    "s": {
+      "0": 9,
+      "1": 9,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    "f": {
+      "0": 9,
+      "1": 0
+    },
+    "b": {
+      "0": [
+        0,
+        9
+      ],
+      "1": [
+        9,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f251cf35af92b55ebbed4557b3aeaef233e9a030"
+  },
+  "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\index.tsx": {
+    "path": "C:\\Users\\pedro\\Source\\Repos\\react-todo\\src\\index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 18
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 9,
+      "1": 9
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f0cb471cf1df42e873699fce84911a8615d46bb4"
+  }
+}

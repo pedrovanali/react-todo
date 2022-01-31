@@ -14,7 +14,7 @@ export interface PropsStateTodoContext {
 }
 
 export type PropsDispatchTodoContext = {
-  dispatch: Dispatch<TodoAction>;
+  dispatch: Dispatch<TodoAction> | ((action: TodoAction) => void);
 };
 
 const DEFAULT_STATE_VALUE = {
@@ -22,10 +22,9 @@ const DEFAULT_STATE_VALUE = {
   lastTodoId: 0,
 };
 
-const TodoStateContext =
-  createContext<PropsStateTodoContext>(DEFAULT_STATE_VALUE);
-const TodoDispatchContext = createContext<Dispatch<TodoAction>>(
-  {} as Dispatch<TodoAction>
-);
+const TodoStateContext = createContext<
+  PropsStateTodoContext
+>(DEFAULT_STATE_VALUE);
+const TodoDispatchContext = createContext<any>({});
 
 export { TodoDispatchContext, TodoStateContext };
