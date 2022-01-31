@@ -13,8 +13,10 @@ const AddTodo: FC<AddTodoProps> = () => {
   };
 
   const handleAddTodo = () => {
-    dispatch(addTodo(inputValue));
-    setInputValue("");
+    if (inputValue !== "") {
+      dispatch(addTodo(inputValue));
+      setInputValue("");
+    }
   };
 
   return (

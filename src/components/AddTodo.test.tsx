@@ -51,6 +51,24 @@ describe("Test suite for AddTodo", () => {
     expect(mockFn).toHaveBeenCalled();
     expect(addTodoInput.value).toEqual("");
   });
+  it("should not call the dispatch when input is empty", () => {
+    const mockFn = jest.fn();
+    render(
+      <TodoDispatchContext.Provider value={mockFn}>
+        <AddTodo />
+      </TodoDispatchContext.Provider>
+    );
+    const addTodoButton = screen.getByText("Add todo") as HTMLButtonElement;
+    const addTodoInput = screen.getByTestId(
+      "add-todo-input"
+    ) as HTMLInputElement;
+    fireEvent.change(addTodoInput, {
+      target: { value: "" },
+    });
+    fireEvent.click(addTodoButton);
+    expect(mockFn).not.toHaveBeenCalled();
+    expect(addTodoInput.value).toEqual("");
+  });
 });
 describe("Add todo css test suite", () => {
   it("should check if class add-todo exists in the dom", () => {
